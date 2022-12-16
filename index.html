@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body>
+    <div class="container_entire">
+      <div class="title_header">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </div>
+
+      <div class="main_card">
+        <div class="main_card_title_container">
+          <div>
+            <h3 id="views">0 PAGEVIEWS</h3>
+          </div>
+
+          <div class="price_container">
+            <h1 id="price">$0</h1>
+            <h3>/month</h3>
+          </div>
+        </div>
+
+        <div class="input_container">
+          <input class="range" type="range" name="" id="range" step="1" />
+        </div>
+
+        <div class="checkbox_container">
+          <h3>Monthly Billing</h3>
+          <label class="switch">
+            <input type="checkbox" id="checkbox" />
+            <span class="slider round"></span>
+          </label>
+          <h3>Yearly Billing</h3>
+          <h3 class="discount" id="25_label">25% discount</h3>
+        </div>
+
+        <div class="footer_container">
+          <div>
+            <h3><img src="./images/icon-check.svg" />Unlimited websites</h3>
+            <h3><img src="./images/icon-check.svg" />100% data ownership</h3>
+            <h3><img src="./images/icon-check.svg" />Email reports</h3>
+          </div>
+
+          <div><button>Start my trial</button></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
